@@ -1,0 +1,53 @@
+:root {
+  --accent: #00e0ff; /* Bright Cyan */
+}
+:root {
+  --accent: #00e0ff; /* bright cyan */
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+.App {
+  text-align: center;
+  color: #ffffff;
+  padding: 0 20px;
+}
+
+section {
+  padding: 60px 0;
+  position: relative;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+.logo,
+.section-title,
+.home-img img,
+.nav-links li a:hover {
+  color: var(--accent);
+  text-shadow: 0 0 4px var(--accent);
+}
+
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
